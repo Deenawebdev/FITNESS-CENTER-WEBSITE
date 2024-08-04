@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GET IN TOUCH</title>
+    <link rel="icon" href="./IMAGES/gymfavicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    
+    <style>
+                
+
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        height: 100%;
+        width: 100%;
+        text-transform: capitalize;
+        background: url(./IMAGES/bb4.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+.hero{
+    height: 100%;
+    width: 100%;
+
+}
+/* header name*/
+
+.header h1{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.header span{
+    color: red;
+}
+
+/* nav section */
+.nav{
+    
+    display: flex;
+    justify-content: end;
+}
+
+.nav ul{
+    display: flex;
+    margin: 5px;
+    margin-right: 20px;
+}
+
+.nav li{
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+.nav a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: 5px 5px 5px red;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px;
+
+  
+}
+.nav a:hover{
+    color:whitesmoke;
+    text-decoration: underline;
+    transition: 3s ease-in;
+}
+
+
+/* content */
+
+.content{
+    border: 5px solid gray;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    padding: 50px;
+    padding-bottom: 30px;
+    color: whitesmoke;
+    /* background: transparent; */
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    font-weight: bold;
+}
+.contacttittle{
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 5px 5px 5px gray;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+} 
+.contacttittle span{
+    color: red;
+
+}
+.followus h2{
+    color: red;
+    text-shadow: 2px 2px 2px whitesmoke;
+}
+.followus p{
+    color: gray;
+    /* text-shadow: 2px 2px 2px blue; */
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    
+}
+.icon p{
+    color: white;
+    padding: 10px;
+}
+.icon img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin-left: 5px;
+}
+
+
+/* media query */
+
+@media screen and (max-width:870px) {
+    body{
+        width: 100%;
+        height: 100%;
+        background: url(./IMAGES/bb2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .hero{
+        
+        width: 100%;
+        height: 100%;
+    }
+    
+    .header h1{
+        text-align: center;
+       
+    }
+
+    .nav{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    
+     .nav ul a{ 
+        width: 100%;
+        font-size:18px;
+        text-align: center;
+        text-wrap:nowrap;
+        display: flex;
+        text-overflow: clip;
+        
+    } 
+
+    .content{
+        border: none;
+        backdrop-filter: blur(0);
+        
+       
+    }
+}
+
+@media screen and (max-width:660px){
+    .content{
+        margin-left: 10%; 
+        margin-right: 10%;
+   
+    
+    }
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <header class="header">
+
+            <h1>health <span>&</span> fitness</h1>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="fitness.html">fitness</a></li>
+                    <!-- <li><a href="#">health living</a></li> -->
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="about.html">get in touch</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <h2 class="contacttittle"><span>c</span>ontact <span>u</span>s</h2>
+        <div class="content">
+            
+
+                <div class="contactdetail">
+                    <p>Address: [Your Gym Address]</p>
+                    <p>Phone: [Your Gym Phone Number]</p>
+                    <p>Email: [Your Gym Email Address]</p>
+                    <p>Hours: per day 1to 2 hrs training</p>
+                    <p>Monday - Friday: 5:00 AM - 10:00 PM</p>
+                    <p>Saturday: 6:00 AM - 8:00 PM</p>
+                    
+                </div>
+
+                <div class="followus">
+                     <h2>
+                        Follow Us
+
+                    </h2>
+                    <p>Stay updated with the latest news, offers, and fitness tips by following us on social media.</p>
+    
+                    <div class="icon"> 
+                        <p> Instagram: <img src="./IMAGES/instsaicon.png" alt=""></p>
+                        <p>  Facebook: <img src="./IMAGES/fbicon.png" alt=""></p>
+                        <p>  whatsapp: <img src="./IMAGES/wpicon1.png" alt=""> </p>
+                    </div>
+                </div>
+                
+                
+                
+         </div>       
+
+
+         
+    
+
+    </div>
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
+</body>
+</html>
